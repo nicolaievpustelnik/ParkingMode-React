@@ -1,3 +1,7 @@
+.body {
+  background-color: black;
+}
+
 .App {
   text-align: center;
 }
@@ -21,7 +25,7 @@
   align-items: center;
   justify-content: center;
   font-size: calc(10px + 2vmin);
-  color: white;
+  color: black;
 }
 
 .App-link {
@@ -32,7 +36,207 @@
   from {
     transform: rotate(0deg);
   }
+
   to {
     transform: rotate(360deg);
   }
+}
+
+.Header {
+  background-color: #3268ff;
+}
+
+.h1Header {
+  font-family: 'Knewave', cursive;
+  font-size: 5em;
+  color: white;
+  width: 500px;
+}
+
+button {
+  background-image: linear-gradient(150deg, #309ad5, #309ad5, black);
+}
+
+.blockText {
+  color: grey;
+  font-size: 1.3em;
+}
+
+.lineSvgCar {
+  position: relative;
+  margin-top: -100%;
+}
+
+.imgCar {
+  width: 250px;
+  height: 250px;
+  position: relative;
+}
+
+.h1Header {
+  margin-left: 1000px;
+  margin-top: -750px;
+}
+
+.inputEmail {
+  width: 180px;
+  border: solid #309ad5 2px;
+  border-top-left-radius: 30px;
+  border-bottom-left-radius: 30px;
+  height: 34px;
+  background-color: white;
+  padding-left: 10;
+  position: relative;
+}
+
+.inputSignUp {
+  border-top-right-radius: 30px;
+  border-bottom-right-radius: 30px;
+  border: solid #309ad5 2px;
+  height: 40px;
+  color: white;
+  font-weight: bold;
+  background-color: #309ad5;
+  padding-left: 12;
+  padding-right: 12;
+  position: relative;
+}
+
+.cardHeader {
+  perspective: 40px;
+  display: flex;
+}
+
+.card {
+  width: 650px;
+  height: 300px;
+  border-top-right-radius: 10px;
+  border-bottom-right-radius: 10px;
+  border-top-left-radius: 10px;
+  border-bottom-left-radius: 10px;
+  background-image: linear-gradient(150deg, #464646bf, #464646bf, black);
+
+  /* -----------Effect------------- */
+  transition: transform 0.5s;
+  -webkit-transition: transform 0.5s;
+  box-shadow: 2px 5px 50px rgba(255, 255, 255, 0.2);
+}
+
+.iconCard {
+  height: 70px;
+  width: 70px;
+}
+
+.iconCard2 {
+  height: 60px;
+  width: 60px;
+  margin-top: 10px;
+}
+
+.type {
+  float: left;
+  margin-left: 20px;
+}
+
+.textIconCard {
+  color: grey;
+}
+
+.colorCard {
+  width: 100px;
+  height: 100px;
+  background-color: #309ad5;
+  opacity: 0;
+  filter: blur(60px);
+  border-radius: 300px;
+  transition: opacity 1.2s cubic-bezier(0.16, 1, 0.3, 1);
+  mix-blend-mode: soft-light;
+  will-change: transform;
+
+  pointer-events: none;
+  z-index: -1 !important;
+  bottom: 0 !important;
+  right: 0 !important;
+  position: absolute !important;
+}
+
+
+/* Section 1 */
+.imgApp1 {
+  width: 285px;
+  height: 540px;
+  margin-left: 15px;
+  border: 2.5px solid rgba(31, 30, 30, 0.425);
+  margin-top: -180px;
+}
+
+.blockSection1 {
+  background-color: black;
+  padding-left: 200px;
+  margin-top: -230px;
+}
+
+/* Phone Effect */
+
+.blockSection1 .iphone {
+  -webkit-transform: translate(-20%, 10%) rotate3d(0.5, 0.866, 0, 16deg) rotateZ(-7deg);
+  transform: translate(-20%, 10%) rotate3d(0.5, 0.866, 0, 16deg) rotateZ(-7deg);
+}
+
+.iphone {
+  background: #b3b3b3;
+  max-width: 320px;
+  border-radius: 36px;
+  padding: 55px 0;
+  -webkit-box-shadow: inset 0 4px 10px 1px black, inset 0 0 6px 0 rgb(66 77 86 / 50%), 0 2px 0 #aeb5bb, 0 20px 50px -25px rgb(0 0 0 / 50%);
+  box-shadow: inset 0 4px 10px 1px black, inset 0 0 6px 0 rgb(66 77 86 / 50%), 0 2px 0 #aeb5bb, 0 20px 50px -25px rgb(0 0 0 / 50%);
+}
+
+.iphone {
+  border: 1px solid rgb(92, 92, 92);
+  /* margin: 0 auto; */
+  position: relative;
+}
+
+.iphone:before {
+  background: #e3e8eb;
+  margin: -25px auto 0;
+}
+
+.iphone:before {
+  width: 45px;
+  height: 4px;
+  left: 0;
+  right: 0;
+  -webkit-box-shadow: inset 0 1px 1px rgb(0 0 0 / 5%);
+  box-shadow: inset 0 1px 1px rgb(0 0 0 / 5%);
+  border-radius: 30px;
+}
+
+.iphone:before,
+.iphone:after {
+  content: '';
+  position: absolute;
+}
+
+.iphone:after {
+  top: 30px;
+  margin-left: -45px;
+  background: #e3e8eb;
+}
+
+.iphone:after {
+  left: 50%;
+  width: 8px;
+  height: 8px;
+  -webkit-box-shadow: 0 0 0 2px rgb(0 0 0 / 3%);
+  box-shadow: 0 0 0 2px rgb(0 0 0 / 3%);
+  display: block;
+  border-radius: 50%;
+}
+
+.iphone:before,
+.iphone:after {
+  content: '';
+  position: absolute;
 }
