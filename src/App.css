@@ -51,10 +51,8 @@
   font-size: 5em;
   color: white;
   width: 500px;
-}
-
-button {
-  background-image: linear-gradient(150deg, #309ad5, #309ad5, black);
+  margin-left: 1000px;
+  margin-top: -750px;
 }
 
 .blockText {
@@ -71,11 +69,6 @@ button {
   width: 250px;
   height: 250px;
   position: relative;
-}
-
-.h1Header {
-  margin-left: 1000px;
-  margin-top: -750px;
 }
 
 .inputEmail {
@@ -100,11 +93,17 @@ button {
   padding-left: 12;
   padding-right: 12;
   position: relative;
+  background-image: linear-gradient(150deg, #309ad5, #309ad5, black);
 }
 
 .cardHeader {
   perspective: 40px;
   display: flex;
+}
+
+.textCardHeader {
+  margin-left: 20px;
+  color: rgb(155, 155, 155);
 }
 
 .card {
@@ -123,23 +122,43 @@ button {
 }
 
 .iconCard {
-  height: 70px;
-  width: 70px;
+  height: 60px;
+  width: 60px;
 }
 
 .iconCard2 {
-  height: 60px;
-  width: 60px;
+  height: 50px;
+  width: 50px;
   margin-top: 10px;
 }
 
 .type {
   float: left;
-  margin-left: 20px;
+  margin-left: 30px;
 }
 
 .textIconCard {
   color: grey;
+}
+
+.installButton {
+  height: 60px;
+  width: 60px;
+  border-top-left-radius: 30px;
+  border-bottom-left-radius: 30px;
+  border-top-right-radius: 30px;
+  border-bottom-right-radius: 30px;
+  border: solid #309ad5 2px;
+  background-color: #309ad5;
+  height: 35px;
+  width: 35px;
+  margin-top: 30px;
+  margin-left: 30px;
+}
+
+.lineButton {
+  height: 20px;
+  width: 20px;
 }
 
 .colorCard {
@@ -170,10 +189,24 @@ button {
   margin-top: -180px;
 }
 
+.imgApp2 {
+  width: 280px;
+  height: 520px;
+  margin-left: 12px;
+  border: 2.5px solid #1f1e1e6c;
+  margin-top: -100px;
+}
+
 .blockSection1 {
   background-color: black;
   padding-left: 200px;
   margin-top: -230px;
+}
+
+.blockSection2 {
+  background-color: black;
+  padding-left: 380px;
+  margin-top: -580px;
 }
 
 /* Phone Effect */
@@ -183,9 +216,19 @@ button {
   transform: translate(-20%, 10%) rotate3d(0.5, 0.866, 0, 16deg) rotateZ(-7deg);
 }
 
+
 .iphone {
   background: #b3b3b3;
   max-width: 320px;
+  border-radius: 36px;
+  padding: 55px 0;
+  -webkit-box-shadow: inset 0 4px 10px 1px black, inset 0 0 6px 0 rgb(66 77 86 / 50%), 0 2px 0 #aeb5bb, 0 20px 50px -25px rgb(0 0 0 / 50%);
+  box-shadow: inset 0 4px 10px 1px black, inset 0 0 6px 0 rgb(66 77 86 / 50%), 0 2px 0 #aeb5bb, 0 20px 50px -25px rgb(0 0 0 / 50%);
+}
+
+.iphone2 {
+  background: #b3b3b3;
+  max-width: 310px;
   border-radius: 36px;
   padding: 55px 0;
   -webkit-box-shadow: inset 0 4px 10px 1px black, inset 0 0 6px 0 rgb(66 77 86 / 50%), 0 2px 0 #aeb5bb, 0 20px 50px -25px rgb(0 0 0 / 50%);
@@ -198,12 +241,34 @@ button {
   position: relative;
 }
 
+.iphone2 {
+  border: 1px solid rgb(92, 92, 92);
+  /* margin: 0 auto; */
+  position: relative;
+}
+
+
 .iphone:before {
   background: #e3e8eb;
   margin: -25px auto 0;
 }
 
+.iphone2:before {
+  background: #e3e8eb;
+  margin: -25px auto 0;
+}
+
 .iphone:before {
+  width: 45px;
+  height: 4px;
+  left: 0;
+  right: 0;
+  -webkit-box-shadow: inset 0 1px 1px rgb(0 0 0 / 5%);
+  box-shadow: inset 0 1px 1px rgb(0 0 0 / 5%);
+  border-radius: 30px;
+}
+
+.iphone2:before {
   width: 45px;
   height: 4px;
   left: 0;
@@ -219,13 +284,36 @@ button {
   position: absolute;
 }
 
+.iphone2:before,
+.iphone2:after {
+  content: '';
+  position: absolute;
+}
+
 .iphone:after {
   top: 30px;
   margin-left: -45px;
   background: #e3e8eb;
 }
 
+.iphone2:after {
+  top: 30px;
+  margin-left: -45px;
+  background: #e3e8eb;
+}
+
+
 .iphone:after {
+  left: 50%;
+  width: 8px;
+  height: 8px;
+  -webkit-box-shadow: 0 0 0 2px rgb(0 0 0 / 3%);
+  box-shadow: 0 0 0 2px rgb(0 0 0 / 3%);
+  display: block;
+  border-radius: 50%;
+}
+
+.iphone2:after {
   left: 50%;
   width: 8px;
   height: 8px;
@@ -239,4 +327,81 @@ button {
 .iphone:after {
   content: '';
   position: absolute;
+}
+
+.iphone2:before,
+.iphone2:after {
+  content: '';
+  position: absolute;
+}
+
+
+@media (max-width: 1500px) {
+  .h1Header {
+    font-size: 4.2em;
+    margin-left: 800px;
+    margin-top: -500px;
+  }
+
+  .blockText {
+    font-size: 1.1em;
+    margin-top: 0;
+  }
+
+  .imgCar {
+    width: 200px;
+    height: 200px;
+  }
+
+  .card {
+    width: 550px;
+    height: 250px;
+  }
+
+  .textCardHeader {
+    font-size: 1em;
+  }
+
+  .iconCard {
+    height: 40px;
+    width: 40px;
+  }
+
+  .iconCard2 {
+    height: 30px;
+    width: 30px;
+  }
+
+  /* Section 1 */
+  .imgApp1 {
+    width: 240px;
+    height: 430px;
+    margin-left: 15px;
+    margin-top: -10px;
+  }
+
+  .imgApp2 {
+    width: 230px;
+    height: 420px;
+    margin-left: 12px;
+    margin-top: -10px;
+  }
+
+  .iphone {
+    max-width: 270px;
+  }
+
+  .iphone2 {
+    max-width: 258px;
+  }
+
+  .blockSection1 {
+    padding-left: 125px;
+  }
+
+  .blockSection2 {
+    margin-top: -480px;
+    padding-left: 250px;
+  }
+
 }

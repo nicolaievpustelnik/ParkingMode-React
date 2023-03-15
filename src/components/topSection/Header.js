@@ -12,6 +12,7 @@ import hourIcon from '../../assets/icon/hour2.png';
 import motorcycleIcon from '../../assets/icon/motorcycle2.png';
 import rentalIcon from '../../assets/icon/rental2.png';
 import truckIcon from '../../assets/icon/truck2.png';
+import line from '../../assets/icon/nextWhite.png';
 
 const Container = styled.div`
   width: 100%;
@@ -24,6 +25,11 @@ const CanvasContainer = styled.div`
   float: left;
   margin-top: -100px;
   margin-left: -1200px;
+  @media (max-width: 1500px) {
+    margin-left: -750px;
+    width: 140%;
+    height: 80%;
+  }
 `;
 
 const TextContainer = styled.div`
@@ -37,6 +43,10 @@ const ImgHeader = styled.div`
   margin-left: -80%;
   float: left;
   user-select: none;
+  @media (max-width: 1500px) {
+    margin-top: 300px;
+    margin-left: -70%;
+  }
 `;
 
 const BlockTextHeader = styled.div`
@@ -49,6 +59,10 @@ const BlockTextHeader = styled.div`
 const LineCarHeader = styled.div`
   width: 700px;
   margin-left: 500px;
+  @media (max-width: 1500px) {
+    width: 400px;
+    margin-left: 400px;
+  }
 `;
 
 const InputHeader = styled.div`
@@ -56,12 +70,21 @@ const InputHeader = styled.div`
   float: left;
   margin-top: -450px;
   margin-left: -165px;
+  @media (max-width: 1500px) {
+    width: 400px;
+    margin-top: -268px;
+    margin-left: -220px;
+  }
 `;
 
 const CardBlock = styled.div`
   float: left;
   margin-top: -320px;
   margin-left: -280px;
+  @media (max-width: 1500px) {
+    margin-top: -200px;
+    margin-left: -280px;
+  }
 `;
 
 function Header(props) {
@@ -107,7 +130,9 @@ function Header(props) {
 
       <CardBlock className="cardHeader">
         <div className="c card">
-
+          <p className="textCardHeader">Are you tired of going around endlessly looking for a place to park your vehicle? Are you frustrated when you are late for your appointments because you couldn't find a parking space?</p>
+          <h2 className="textCardHeader">You don't have to worry anymore!</h2>
+          <h3 className="textCardHeader">Parking type:</h3>
           <div className="c type">
             <img className="c iconCard" src={bikeIcon} alt="bike"></img>
             <p className="c textIconCard">Bike</p>
@@ -115,28 +140,30 @@ function Header(props) {
 
           <div className="c type">
             <img className="c iconCard" src={carIcon} alt="bike"></img>
-            <p className="c textIconCard">Bike</p>
+            <p className="c textIconCard">Car</p>
           </div>
 
           <div className="c type">
             <img className="c iconCard2" src={hourIcon} alt="bike"></img>
-            <p className="c textIconCard">Bike</p>
+            <p className="c textIconCard">Hour</p>
           </div>
 
           <div className="c type">
             <img className="c iconCard" src={motorcycleIcon} alt="bike"></img>
-            <p className="c textIconCard">Bike</p>
+            <p className="c textIconCard">Motorcycle</p>
           </div>
 
           <div className="c type">
             <img className="c iconCard" src={rentalIcon} alt="bike"></img>
-            <p className="c textIconCard">Bike</p>
+            <p className="c textIconCard">Rental</p>
           </div>
 
           <div className="c type">
             <img className="c iconCard" src={truckIcon} alt="bike"></img>
-            <p className="c textIconCard">Bike</p>
+            <p className="c textIconCard">Truck</p>
           </div>
+
+          <div><button className="installButton" type="button"><img className="lineButton" src={line} alt="Line" /></button></div>
 
         </div>
         <div className="c colorCard"></div>
