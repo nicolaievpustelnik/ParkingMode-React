@@ -3,11 +3,25 @@ import styled from "styled-components";
 
 import imgApp1 from '../../assets/img/app1.jpg';
 import imgApp2 from '../../assets/img/app2.jpg';
+import lineSvg from '../../assets/svgs/line2.svg';
+import carIconLine from '../../assets/icon/myLocation2.png';
 
 const Block1 = styled.div`
-    
+    background-color: black;
 `;
 
+const Line2 = styled.div`
+    width: 100px;
+    margin-left: 90%;
+    margin-top: -120vh;
+`;
+
+const TextSection1 = styled.div`
+    width: 900px;
+    height: 300px;
+    margin-left: 800px;
+    margin-top: -450px;
+`;
 
 function Section1(props) {
     return (
@@ -26,6 +40,17 @@ function Section1(props) {
                     </div>
                 </div>
             </div>
+            <Line2>
+                <img className="" src={lineSvg} alt="Line" />
+            </Line2>
+            <div>
+                <img className="carIconLine" src={carIconLine} alt="CarIconLine" />
+            </div>
+            <TextSection1>
+                <h2 className="textSection1">
+                    Find the perfect place to park your vehicle in our app. We offer a wide variety of parking spaces available for rent, regardless of the type of vehicle you have.
+                </h2>
+            </TextSection1>
         </Block1>
     );
 }
