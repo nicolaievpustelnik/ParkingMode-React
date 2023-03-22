@@ -6,8 +6,6 @@ import Header from './components/topSection/Header'
 import Section1 from './components/centerSection/Section1'
 import Section2 from './components/centerSection/Section2'
 
-console.log(process.env.REACT_APP_API_URL)
-
 function App() {
   return (
     <>
