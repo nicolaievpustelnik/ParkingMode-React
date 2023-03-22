@@ -1,5 +1,6 @@
 {
   "name": "parkingmodeweb",
+  "homepage": "https://nicolaievpustelnik.github.io/ParkingMode-React/",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
@@ -23,8 +24,8 @@
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject",
-    "predeploy": "env-cmd -e PROD npm run build",
-    "deploy": "env-cmd -e PROD gh-pages -d build",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build",
     "dev": "env-cmd -e DEV npm run start",
     "prod": "env-cmd -e PROD npm run start"
   },
