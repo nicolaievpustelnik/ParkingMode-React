@@ -1,5 +1,6 @@
 {
   "name": "parkingmodeweb",
+  "homepage": "https://nicolaievpustelnik.github.io/ParkingMode-React/",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
@@ -26,8 +27,7 @@
     "predeploy": "npm run build",
     "deploy": "gh-pages -d build",
     "dev": "env-cmd -e DEV npm run start",
-    "prod": "env-cmd -e PROD npm run start",
-    "pro": "env-cmd -e PROD deploy"
+    "prod": "env-cmd -e PROD npm run start"
   },
   "eslintConfig": {
     "extends": [
