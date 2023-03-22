@@ -1,4 +1,5 @@
-.body {
+.contBody {
+  overflow-x: hidden;
   background-color: black;
 }
 
@@ -352,6 +353,44 @@
   font-size: 2.5em;
 }
 
+/* SECTION2 */
+.cardImg {
+  padding-left: 900px;
+  margin-top: 200px;
+}
+
+.browser {
+  transform: translate(40%, -10%) rotate3d(0.342, -0.94, 0, 22deg) rotateZ(7deg);
+  bottom: auto;
+  /* width: 780px; */
+  background: -webkit-gradient(linear, left top, left bottom, color-stop(1%, #fff), color-stop(10%, #eef1f3));
+  background: linear-gradient(#fff 1%, #eef1f3 10%);
+  position: relative;
+  padding-top: 2em;
+  border-radius: 0.4em;
+}
+
+.browser:before {
+  display: block;
+  position: absolute;
+  content: '';
+  top: 0.75em;
+  left: 1em;
+  width: 0.5em;
+  height: 0.5em;
+  border-radius: 50%;
+  background: #f44;
+  -webkit-box-shadow: 0 0 0 1px #f44, 1.5em 0 0 1px #9b3, 3em 0 0 1px #fb5;
+  box-shadow: 0 0 0 1px #f44, 1.5em 0 0 1px #9b3, 3em 0 0 1px #fb5;
+}
+
+.absolute {
+  position: absolute !important;
+}
+
+.shadow-lg {
+  box-shadow: 0 1rem 3rem rgba(255, 255, 255, 0.411) !important;
+}
 
 @media (max-width: 1500px) {
   .h1Header {
