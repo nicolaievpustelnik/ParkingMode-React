@@ -32,7 +32,7 @@ function Section2(props) {
             </div>
             <Line>
                 <img className="lineSec2" src={line} alt="Line" />
-                <div data-aos="fade-right" data-aos-anchor-placement="center-center" data-aos-delay="1000">
+                <div data-aos="fade-right" data-aos-anchor-placement="center-center" data-aos-delay="800">
                     <h2 className="textSection2-1">Do not think twice, rent with us!</h2>
                     <h4 className="textSection2-2">On our vehicle parking space rental website, we offer you a service that is 100% recommended by our satisfied customers. With us, you will find a safe, accessible and comfortable place to park your car.</h4>
 
