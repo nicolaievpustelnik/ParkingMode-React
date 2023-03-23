@@ -181,7 +181,7 @@
 }
 
 
-/* Section 1 */
+/* SECTION 1 */
 .imgApp1 {
   width: 285px;
   height: 540px;
@@ -353,10 +353,39 @@
   font-size: 2.5em;
 }
 
-/* SECTION2 */
+/* SECTION 2 */
 .cardImg {
   padding-left: 900px;
-  margin-top: 200px;
+  padding-top: 200px;
+}
+
+.lineSec2 {
+  width: 50px;
+}
+
+.carIconLineSec2 {
+  height: 50px;
+  width: 50px;
+  float: left;
+  position: relative;
+  margin-top: -160px;
+}
+
+.textSection2-1 {
+  color: rgb(165, 163, 163);
+  font-family: "Mona Sans", "Mona Sans Header Fallback", -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+  font-feature-settings: unset;
+  font-size: 2.5em;
+  margin-left: 100px;
+  margin-top: -430px;
+}
+
+.textSection2-2 {
+  color: rgb(165, 163, 163);
+  font-family: "Mona Sans", "Mona Sans Header Fallback", -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+  font-feature-settings: unset;
+  font-size: 1.8em;
+  margin-left: 100px;
 }
 
 .browser {
@@ -428,7 +457,7 @@
     width: 30px;
   }
 
-  /* Section 1 */
+  /* SECTION 1 */
   .imgApp1 {
     width: 240px;
     height: 430px;

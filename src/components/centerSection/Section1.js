@@ -6,6 +6,13 @@ import imgApp2 from '../../assets/img/app2.jpg';
 import lineSvg from '../../assets/svgs/line2.svg';
 import carIconLine from '../../assets/icon/myLocation2.png';
 
+import AOS from 'aos';
+import 'aos/dist/aos.css';
+
+AOS.init({
+    duration: 800
+});
+
 const Block1 = styled.div`
     background-color: black;
 `;
@@ -40,6 +47,7 @@ function Section1(props) {
                     </div>
                 </div>
             </div>
+
             <Line2>
                 <img className="" src={lineSvg} alt="Line" />
             </Line2>
@@ -47,10 +55,14 @@ function Section1(props) {
                 <img className="carIconLine" src={carIconLine} alt="CarIconLine" />
             </div>
             <TextSection1>
-                <h2 className="textSection1">
-                    Find the perfect place to park your vehicle in our app. We offer a wide variety of parking spaces available for rent, regardless of the type of vehicle you have.
-                </h2>
+                <div data-aos="fade-up" data-aos-anchor-placement="bottom-bottom">
+                    <h2 className="textSection1">
+                        Find the perfect place to park your vehicle in our app. We offer a wide variety of parking spaces available for rent, regardless of the type of vehicle you have.
+                    </h2>
+                </div>
             </TextSection1>
+
+
         </Block1>
     );
 }
