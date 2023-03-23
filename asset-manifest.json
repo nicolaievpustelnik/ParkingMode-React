@@ -1,17 +1,19 @@
 {
   "files": {
-    "main.css": "/ParkingMode-React/static/css/main.f4c505fb.chunk.css",
-    "main.js": "/ParkingMode-React/static/js/main.aa98895e.chunk.js",
-    "main.js.map": "/ParkingMode-React/static/js/main.aa98895e.chunk.js.map",
-    "runtime-main.js": "/ParkingMode-React/static/js/runtime-main.845478c8.js",
-    "runtime-main.js.map": "/ParkingMode-React/static/js/runtime-main.845478c8.js.map",
-    "static/js/2.d05641d2.chunk.js": "/ParkingMode-React/static/js/2.d05641d2.chunk.js",
-    "static/js/2.d05641d2.chunk.js.map": "/ParkingMode-React/static/js/2.d05641d2.chunk.js.map",
-    "static/js/3.9ed7e325.chunk.js": "/ParkingMode-React/static/js/3.9ed7e325.chunk.js",
-    "static/js/3.9ed7e325.chunk.js.map": "/ParkingMode-React/static/js/3.9ed7e325.chunk.js.map",
+    "main.css": "/ParkingMode-React/static/css/main.8f3bef1e.chunk.css",
+    "main.js": "/ParkingMode-React/static/js/main.eda36f3c.chunk.js",
+    "main.js.map": "/ParkingMode-React/static/js/main.eda36f3c.chunk.js.map",
+    "runtime-main.js": "/ParkingMode-React/static/js/runtime-main.5fe28572.js",
+    "runtime-main.js.map": "/ParkingMode-React/static/js/runtime-main.5fe28572.js.map",
+    "static/css/2.7fc9bc2b.chunk.css": "/ParkingMode-React/static/css/2.7fc9bc2b.chunk.css",
+    "static/js/2.2eadaf9e.chunk.js": "/ParkingMode-React/static/js/2.2eadaf9e.chunk.js",
+    "static/js/2.2eadaf9e.chunk.js.map": "/ParkingMode-React/static/js/2.2eadaf9e.chunk.js.map",
+    "static/js/3.9e64d92e.chunk.js": "/ParkingMode-React/static/js/3.9e64d92e.chunk.js",
+    "static/js/3.9e64d92e.chunk.js.map": "/ParkingMode-React/static/js/3.9e64d92e.chunk.js.map",
     "index.html": "/ParkingMode-React/index.html",
-    "static/css/main.f4c505fb.chunk.css.map": "/ParkingMode-React/static/css/main.f4c505fb.chunk.css.map",
-    "static/js/2.d05641d2.chunk.js.LICENSE.txt": "/ParkingMode-React/static/js/2.d05641d2.chunk.js.LICENSE.txt",
+    "static/css/2.7fc9bc2b.chunk.css.map": "/ParkingMode-React/static/css/2.7fc9bc2b.chunk.css.map",
+    "static/css/main.8f3bef1e.chunk.css.map": "/ParkingMode-React/static/css/main.8f3bef1e.chunk.css.map",
+    "static/js/2.2eadaf9e.chunk.js.LICENSE.txt": "/ParkingMode-React/static/js/2.2eadaf9e.chunk.js.LICENSE.txt",
     "static/media/4299.fbe5f62f.jpg": "/ParkingMode-React/static/media/4299.fbe5f62f.jpg",
     "static/media/app1.163742e2.jpg": "/ParkingMode-React/static/media/app1.163742e2.jpg",
     "static/media/app2.834bd04a.jpg": "/ParkingMode-React/static/media/app2.834bd04a.jpg",
@@ -20,15 +22,17 @@
     "static/media/car2.9fccc278.gif": "/ParkingMode-React/static/media/car2.9fccc278.gif",
     "static/media/carWallpaper.923f1751.png": "/ParkingMode-React/static/media/carWallpaper.923f1751.png",
     "static/media/line2.ca36ca5f.svg": "/ParkingMode-React/static/media/line2.ca36ca5f.svg",
+    "static/media/lineSec2.56f70977.svg": "/ParkingMode-React/static/media/lineSec2.56f70977.svg",
     "static/media/line_animated.6b73b3e5.svg": "/ParkingMode-React/static/media/line_animated.6b73b3e5.svg",
     "static/media/motorcycle2.8c2ca22d.png": "/ParkingMode-React/static/media/motorcycle2.8c2ca22d.png",
     "static/media/myLocation2.ac95f0a8.png": "/ParkingMode-React/static/media/myLocation2.ac95f0a8.png",
     "static/media/truck2.16aca447.png": "/ParkingMode-React/static/media/truck2.16aca447.png"
   },
   "entrypoints": [
-    "static/js/runtime-main.845478c8.js",
-    "static/js/2.d05641d2.chunk.js",
-    "static/css/main.f4c505fb.chunk.css",
-    "static/js/main.aa98895e.chunk.js"
+    "static/js/runtime-main.5fe28572.js",
+    "static/css/2.7fc9bc2b.chunk.css",
+    "static/js/2.2eadaf9e.chunk.js",
+    "static/css/main.8f3bef1e.chunk.css",
+    "static/js/main.eda36f3c.chunk.js"
   ]
 }
