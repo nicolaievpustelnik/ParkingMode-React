@@ -81,12 +81,12 @@
 
 .inputEmail {
   width: 180px;
+  padding-left: 10px;
   border: solid #309ad5 2px;
   border-top-left-radius: 30px;
   border-bottom-left-radius: 30px;
   height: 34px;
   background-color: white;
-  padding-left: 10;
   position: relative;
 }
 
@@ -518,14 +518,18 @@
 
 @media (max-width: 1500px) {
   .h1Header {
-    font-size: 4.2em;
+    font-size: 3em;
     margin-left: 800px;
     margin-top: -500px;
   }
 
   .blockText {
-    font-size: 1.1em;
+    font-size: 1em;
     margin-top: 0;
+  }
+
+  .inputEmail {
+    width: 150px;
   }
 
   .imgCar {
@@ -533,23 +537,28 @@
     height: 200px;
   }
 
+  .textIconCard {
+    font-size: 0.8em;
+  }
+
+
   .card {
-    width: 550px;
-    height: 250px;
+    width: 505px;
+    height: 215px;
   }
 
   .textCardHeader {
-    font-size: 1em;
+    font-size: 0.9em;
   }
 
   .iconCard {
-    height: 40px;
-    width: 40px;
+    height: 35px;
+    width: 35px;
   }
 
   .iconCard2 {
-    height: 30px;
-    width: 30px;
+    height: 25px;
+    width: 25px;
   }
 
   /* SECTION 1 */

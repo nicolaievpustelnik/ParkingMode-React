@@ -17,6 +17,9 @@ import line from '../../assets/icon/nextWhite.png';
 const Container = styled.div`
   width: 100%;
   height: 100%;
+  @media (max-width: 1500px) {
+    width: 105%;
+  }
 `;
 
 const CanvasContainer = styled.div`
@@ -26,7 +29,8 @@ const CanvasContainer = styled.div`
   margin-top: -100px;
   margin-left: -1200px;
   @media (max-width: 1500px) {
-    margin-left: -750px;
+    margin-left: -700px;
+    margin-top: -60px;
     width: 140%;
     height: 80%;
   }
@@ -36,6 +40,9 @@ const TextContainer = styled.div`
   width: 70%;
   height: 8vh;
   float: left;
+  @media (max-width: 1500px) {
+    margin-top: 50px;
+  }
 `;
 
 const ImgHeader = styled.div`
@@ -44,8 +51,8 @@ const ImgHeader = styled.div`
   float: left;
   user-select: none;
   @media (max-width: 1500px) {
-    margin-top: 300px;
-    margin-left: -70%;
+    margin-top: 230px;
+    margin-left: -68%;
   }
 `;
 
